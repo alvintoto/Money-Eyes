@@ -1,0 +1,49 @@
+html, body {
+    text-align: center;
+}
+
+header {
+    background-color: #1E90FF; /* Use a visually appealing color for the background */
+    color: white; /* Set the text color to white */
+    text-align: center; /* Center the content within the header */
+    padding: 15px 0; /* Add some padding to the top and bottom of the header */
+}
+
+h1 {
+    font-size: 7em; /* Make the font size of the h1 element large */
+    margin: 0; /* Remove any margin around the h1 element */
+}
+
+#description {
+    font-size: 2em; /* Make the font size of the p element slightly smaller */
+    margin: 20px 0; /* Add some margin to the top and bottom of the p element */
+}
+
+#start {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 100px;
+    font-size: 32px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border: 3px solid #007bff;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#loading-spinner {
+    display: none;
+}
+
+#sum-display {
+    display: none;
+}
+ #label-container {
+     display: none;}
